@@ -54,5 +54,5 @@ exports.readingLevel = (text, full) => {
     return err
   }
 
-  return result.rounded
+  return result.unrounded
 }
